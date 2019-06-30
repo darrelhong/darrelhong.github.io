@@ -15,6 +15,8 @@ Visit [https://darrelhong.github.io](https://darrelhong.github.io) for live demo
 - **Multi-year view** - Achieved
 - **Prerequisite checking** - Partially Achieved
 
+## Implemented features
+
 ### Drag-drop
 
 Draggable elements created using SortableJS API.
@@ -27,6 +29,10 @@ Collapsable multi-year view using Bootstrap.
 ![enter image description here](https://media.giphy.com/media/icJjbM9fDcpo5XdP0m/giphy.gif)
 
 Uses NUSMods API to fetch module data which contains prerequisite tree/fulfilled requirements. Some modules have AND/OR conditions which our current algorithm does not support.
+
+### Module search function
+
+Search for any module and add to module list.
 
 ## Optimisations
 
