@@ -7,3 +7,6 @@ package-lock.json
 
 # Ignore Server.js
 Server.js
+
+# Ignore others folder
+others
