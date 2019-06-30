@@ -25,6 +25,7 @@ Collapsable multi-year view using Bootstrap.
 
 ### Prerequisite checking
 ![enter image description here](https://media.giphy.com/media/icJjbM9fDcpo5XdP0m/giphy.gif)
+
 Uses NUSMods API to fetch module data which contains prerequisite tree/fulfilled requirements. Some modules have AND/OR conditions which our current algorithm does not support.
 
 ## Optimisations
