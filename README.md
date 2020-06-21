@@ -1,3 +1,6 @@
+# Personal Website
+Visit [darrelhong.github.io](https://darrelhong.github.io)
+
 # Projects
 
 ## Module Planner (Orbital project)
