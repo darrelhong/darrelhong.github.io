@@ -4,8 +4,11 @@
 	export let href;
 </script>
 
-<a {href} class="highlight" style="--highlight-color: {color};  --highlight-color-dark: {colorDark}"
-	><slot /></a
+<a
+	rel="external"
+	{href}
+	class="highlight"
+	style="--highlight-color: {color};  --highlight-color-dark: {colorDark}"><slot /></a
 >
 
 <style>
