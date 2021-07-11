@@ -1,2 +1,5 @@
-# Ignore Mac DB
-.DS_store
+.DS_Store
+node_modules
+/.svelte-kit
+/build
+/functions
