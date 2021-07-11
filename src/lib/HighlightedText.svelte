@@ -4,9 +4,9 @@
 	export let href;
 </script>
 
-<a {href} class="highlight" style="--highlight-color: {color};  --highlight-color-dark: {colorDark}">
-	<slot />
-</a>
+<a {href} class="highlight" style="--highlight-color: {color};  --highlight-color-dark: {colorDark}"
+	><slot /></a
+>
 
 <style>
 	.highlight {
@@ -31,7 +31,6 @@
 		box-shadow: 0 1px 0 3px rgb(var(--highlight-color), 0.1),
 			inset 0 -1.375em 0 rgba(var(--highlight-color), 0.1);
 		border-radius: 3px;
-
 	}
 
 	:global(:root[data-theme='dark'] .highlight:hover) {
