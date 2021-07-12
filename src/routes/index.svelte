@@ -29,7 +29,7 @@
 		Find me on <HighlightedText
 			color="24, 27, 31"
 			colorDark="201, 209, 217"
-			href="https://github.com/darrelhong">Github</HighlightedText
+			href="https://github.com/darrelhong">GitHub</HighlightedText
 		> and <HighlightedText
 			color="34, 89, 156"
 			colorDark="82, 134, 196"
