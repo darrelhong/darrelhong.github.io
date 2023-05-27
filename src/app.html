@@ -6,6 +6,18 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 	</head>
+	<script>
+		if (typeof window !== 'undefined') {
+			if (
+				localStorage.getItem('theme') === 'dark' ||
+				(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+			} else {
+				document.documentElement.setAttribute('data-theme', 'light');
+			}
+		}
+	</script>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>

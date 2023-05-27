@@ -3,9 +3,6 @@
 	import DarkModeButton from '$lib/DarkModeButton.svelte';
 	import HighlightedText from '$lib/HighlightedText.svelte';
 	import Footer from '$lib/Footer.svelte';
-	import { initTheme } from '$lib/themeSwitcher';
-
-	initTheme();
 </script>
 
 <svelte:head>
