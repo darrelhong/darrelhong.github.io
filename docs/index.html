@@ -6,13 +6,25 @@
 		<meta name="viewport" content="width=device-width" />
 		
 		<link href="./_app/immutable/assets/2.7c06a370.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.0dd2b9aa.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.37af688a.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.e51c1892.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.d4b42d08.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.61b25b03.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.a894c1c9.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.a8df3f35.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.9dbbbec9.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.091bedcf.js"><title>@darrelhong</title><!-- HEAD_svelte-jsf7bw_START --><!-- HEAD_svelte-jsf7bw_END -->
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.491559e5.js"><title>@darrelhong</title><!-- HEAD_svelte-jsf7bw_START --><!-- HEAD_svelte-jsf7bw_END -->
 	</head>
+	<script>
+		if (typeof window !== 'undefined') {
+			if (
+				localStorage.getItem('theme') === 'dark' ||
+				(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.setAttribute('data-theme', 'dark');
+			} else {
+				document.documentElement.setAttribute('data-theme', 'light');
+			}
+		}
+	</script>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
 
@@ -46,7 +58,7 @@
 			
 			<script>
 				{
-					__sveltekit_11o4fzz = {
+					__sveltekit_1mg2uaj = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						env: {}
 					};
@@ -56,8 +68,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.0dd2b9aa.js"),
-						import("./_app/immutable/entry/app.61b25b03.js")
+						import("./_app/immutable/entry/start.37af688a.js"),
+						import("./_app/immutable/entry/app.a8df3f35.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
