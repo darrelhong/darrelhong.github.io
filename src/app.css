@@ -10,6 +10,7 @@
 	--highlight-green: 16, 185, 129;
 	--highlight-blue: 59, 130, 246;
 	--highlight-pink: 244, 114, 182;
+	--highlight-purple: 191, 90, 242;
 	--highlight-github: 24, 27, 31;
 	--highlight-linkedin: 34, 89, 156;
 }
@@ -22,6 +23,7 @@
 	--link-hover: #e5e7eb;
 	--highlight-green: 110, 231, 183;
 	--highlight-blue: 96, 165, 250;
+	--highlight-purple-dark: 107, 114, 128;
 	--highlight-github: 201, 209, 217;
 	--highlight-linkedin: 82, 134, 196;
 }

@@ -2,15 +2,13 @@
 	<p class="links">
 		<a class="link" href="https://twitter.com/darrelhong">Twitter</a>
 		•
-		<a class="link" href="https://t.me/darrelhong">Telegram</a>
-		•
 		<a
 			class="link"
-			href="https://drive.google.com/file/d/1jUx_WZzicJUw9bBVyF0ypTdfOhJTinE6/view?usp=sharing"
+			href="https://drive.google.com/file/d/1GMBJHTfao0U6FabaA8RytJdRhRAT041S/view?usp=sharing"
 			>Résumé</a
 		>
 	</p>
-	<p class="copyright">© Darrel. All rights reserved.</p>
+	<p class="copyright">© All rights reserved.</p>
 	<p>
 		<a class="built-with" href="https://svelte.dev/"
 			>Built with

@@ -14,21 +14,28 @@
 
 <DarkModeButton />
 <div class="container">
-	<h1>Hi, I'm Darrel Hong</h1>
+	<h1>Hi, I'm Darrel</h1>
 	<p class="sentence">
 		I'm an aspiring <HighlightedText
-			href="https://github.com/darrelhong?tab=repositories"
+			href="https://github.com/darrelhong"
 			colorVar="--highlight-green"
 		>
 			software engineer</HighlightedText
-		>,
-		<HighlightedText href="https://www.linkedin.com/in/darrelhong" colorVar="--highlight-blue">
-			web developer
-		</HighlightedText> and
-		<HighlightedText href="/photography" colorVar="--highlight-pink">
-			photography enthusiast</HighlightedText
+		> interested in
+		<HighlightedText
+			href="https://hdb-resale-prices.fly.dev/resale/resale_prices"
+			colorVar="--highlight-blue"
+		>
+			building
+		</HighlightedText>
+		<HighlightedText href="https://pizza-dough-calculator.pages.dev" colorVar="--highlight-pink"
+			>useful</HighlightedText
+		>
+		<HighlightedText href="https://supportlocal-sg.pages.dev" colorVar="--highlight-purple"
+			>products</HighlightedText
 		>.
 	</p>
+
 	<p class="find-me sentence">
 		Find me on <HighlightedText colorVar="--highlight-github" href="https://github.com/darrelhong">
 			GitHub
