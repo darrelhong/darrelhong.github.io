@@ -1,7 +1,11 @@
 <script lang="ts">
+	import '../app.css';
 	import DarkModeButton from '$lib/DarkModeButton.svelte';
 	import HighlightedText from '$lib/HighlightedText.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import { initTheme } from '$lib/themeSwitcher';
+
+	initTheme();
 </script>
 
 <svelte:head>
@@ -40,33 +44,6 @@
 <Footer />
 
 <style>
-	:global(:root) {
-		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
-			Cantarell, 'Helvetica Neue', sans-serif;
-		background-color: white;
-		color: #1f2937;
-		transition: background-color 0.3s;
-		--text-light: #6b7280;
-		--text-orange: #d97706;
-		--link-hover: #1f2937;
-	}
-
-	:global(button) {
-		cursor: pointer;
-	}
-
-	:global(:root[data-theme='dark']) {
-		background-color: #0e1421;
-		color: white;
-		--text-light: #9ca3af;
-		--text-orange: #fcd34d;
-		--link-hover: #e5e7eb;
-	}
-	/* push footer to bottom */
-	:global(html) {
-		min-height: 100%;
-	}
-
 	.container {
 		margin-top: 32px;
 		width: clamp(16rem, 90vw, 40rem);

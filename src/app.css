@@ -1,0 +1,17 @@
+:root {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    background-color: white;
+    color: #1f2937;
+    --text-light: #6b7280;
+    --text-orange: #d97706;
+    --link-hover: #1f2937;
+}
+
+
+:root[data-theme='dark'] {
+    background-color: #0e1421;
+    color: white;
+    --text-light: #9ca3af;
+    --text-orange: #fcd34d;
+    --link-hover: #e5e7eb;
+}
