@@ -18,26 +18,23 @@
 	<p class="sentence">
 		I'm an aspiring <HighlightedText
 			href="https://github.com/darrelhong?tab=repositories"
-			color="16, 185, 129"
-			colorDark="110, 231, 183">software engineer</HighlightedText
-		>, <HighlightedText
-			href="https://www.linkedin.com/in/darrelhong"
-			color="59, 130, 246"
-			colorDark="96, 165, 250">web developer</HighlightedText
-		> and
-		<HighlightedText href="/photography" color="244, 114, 182"
-			>photography enthusiast</HighlightedText
+			colorVar="--highlight-green"
+		>
+			software engineer</HighlightedText
+		>,
+		<HighlightedText href="https://www.linkedin.com/in/darrelhong" colorVar="--highlight-blue">
+			web developer
+		</HighlightedText> and
+		<HighlightedText href="/photography" colorVar="--highlight-pink">
+			photography enthusiast</HighlightedText
 		>.
 	</p>
 	<p class="find-me sentence">
-		Find me on <HighlightedText
-			color="24, 27, 31"
-			colorDark="201, 209, 217"
-			href="https://github.com/darrelhong">GitHub</HighlightedText
-		> and <HighlightedText
-			color="34, 89, 156"
-			colorDark="82, 134, 196"
-			href="https://www.linkedin.com/in/darrelhong/">LinkedIn</HighlightedText
+		Find me on <HighlightedText colorVar="--highlight-github" href="https://github.com/darrelhong">
+			GitHub
+		</HighlightedText> and
+		<HighlightedText colorVar="--highlight-linkedin" href="https://www.linkedin.com/in/darrelhong/">
+			LinkedIn</HighlightedText
 		>.
 	</p>
 </div>
